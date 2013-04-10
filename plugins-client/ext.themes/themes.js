@@ -22,7 +22,7 @@ module.exports = ext.register("ext/themes/themes", {
     type    : ext.GENERAL,
     nodes   : [],
     
-    defaultTheme : "ace/theme/textmate", //Default Theme
+    defaultTheme : "ace/theme/tomorrow", //Default Theme
     currTheme    : "",
     activeTheme  : null,
     saved        : false,
