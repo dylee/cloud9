@@ -417,7 +417,7 @@ module.exports = ext.register("ext/code/code", {
                 ["behaviors", "true"],
                 ["wrapbehaviors", "false"],
                 ["softtabs", "true"],
-                ["tabsize", "4"],
+                ["tabsize", "2"],
                 ["scrollspeed", "2"],
                 ["fontsize", "12"],
                 ["wrapmode", "false"],
