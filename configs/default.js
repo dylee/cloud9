@@ -20,7 +20,7 @@ var fsUrl = "/workspace";
 var vfsUrl = "/vfs";
 
 var port = argv.p || process.env.PORT || 3131;
-var host = argv.l || process.env.IP || "localhost";
+var host = argv.l || process.env.IP || "0.0.0.0";
 var debugPort = argv.b || process.env.DEBUG_PORT || 5858;
 
 var useAuth = argv.username && argv.password;
